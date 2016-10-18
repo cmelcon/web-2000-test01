@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background: rgb(81, 110, 129);
+}
+
+h1, h2, h3, h6 {
+  font-family: 'Gidugu', sans-serif;
+  color: white;
+}
+
+input {
+  border-radius: 0.6rem;
+  font-family: 'Gidugu', sans-serif;
+  display: block;
+  margin: 1.5rem auto;
+  width: 70%;
+  font-size: 2.5rem;
+}
+
+button {
+  font-family: 'Gidugu', sans-serif;
+  border-radius: 0.6rem;
+  color: white;
+  border: 2px solid white;
+  background-color: rgb(81, 110, 129);
+  display: block;
+  margin: 1.5rem auto;
+  width: 10rem;
+  font-size: 2.5rem;
+}
+
+.title {
+  margin: 1rem;
+  color: white;
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+.mainControls {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+#audio-controls {
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+}
+
+#audio-controls i {
+  margin-bottom: 2rem;
+  color: white;
+  padding-left: 1.0rem;
+}

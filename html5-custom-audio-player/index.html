@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Gidugu" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Audio Player</title>
+</head>
+
+<body>
+    <h1 class="title">HTML5 Custom Audio Player</h1>
+    <div id="audio-controls">
+        <i id="backward" class="fa fa-step-backward fa-2x" aria-hidden="true"></i>
+        <i id="forward" class="fa fa-step-forward fa-2x" aria-hidden="true"></i>
+        <i id="arrow-down" class="fa fa-arrow-down fa-2x" aria-hidden="true"></i>
+        <i id="arrow-up" class="fa fa-arrow-up fa-2x" aria-hidden="true"></i>
+    </div>
+    <audio controls class="mainControls">
+      <source src="http://swolebrain.com/GrowthHackerMarketing.mp3" type="audio/mp3">
+    </audio>
+    <input id="address" type="text" name="address" value="">
+    <button id="btn" type="button" name="button">Load Audio</button>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

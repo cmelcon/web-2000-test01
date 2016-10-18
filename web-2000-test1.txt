@@ -1,0 +1,6 @@
+Answer 5) PageSpeed Insights
+Answer 4) Reduce HTTP requests, minify CSS and Javascript, prevent CSS and Javascript
+          from blocking the DOM by optimizing the critical rendering path.
+Answer 3) CSSOM and DOM tree combined
+Answer 2) Parse HTML, Recalculate Style, Layout
+Answer 1) By counting the number of render-blocking external resources that must be loaded
